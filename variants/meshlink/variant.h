@@ -186,10 +186,10 @@ SO GPIO 39/TXEN MAY NOT BE DEFINED FOR SUCCESSFUL OPERATION OF THE SX1262 - TG
 // Power is on the controllable 3V3_S rail
 // #define PIN_GPS_RESET (34)
 
-#define PIN_GPS_PPS (26) // Pulse per second input from the GPS
+#define PIN_GPS_PPS (37) // Pulse per second input from the GPS
 
-#define GPS_TX_PIN (4) // This is for bits going TOWARDS the CPU
-#define GPS_RX_PIN (5) // This is for bits going TOWARDS the GPS
+#define GPS_TX_PIN (9) // This is for bits going TOWARDS the CPU
+#define GPS_RX_PIN (10) // This is for bits going TOWARDS the GPS
 
 #define GPS_THREAD_INTERVAL 50
 
